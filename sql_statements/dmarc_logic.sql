@@ -1,0 +1,1 @@
+SELECT * FROM DmarcRecords WHERE (dkim = 'pass' AND spf = 'pass') AND source_ip NOT LIKE '68.232%'
